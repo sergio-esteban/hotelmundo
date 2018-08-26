@@ -1,0 +1,41 @@
+.App {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px/16px = 62.5% -> 1rem =10px*/
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  /* height: 60px; */
+  height: 4rem;
+  /* grid-row: 1 / span 2; //-1 only works with an explicit grid; we had a implicit grid cause we didn't define rows */
+  /* transform: translateY(-1rem); */
+}
+
+.App-header {
+  /* background-image: linear-gradient(to right, #002c73, #194686); */
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+  height: auto 120px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
