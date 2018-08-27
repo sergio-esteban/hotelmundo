@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import logo from "../assets/images/logo-almundo.svg";
-import CardList from "../components/CardList";
+import CardList from "../components/Cards/CardList";
 import SearchBox from "../components/SearchBox";
 import Scroll from "../components/Scroll";
 import "./App.css";
