@@ -55,12 +55,12 @@ class App extends Component {
           <div className="pa4 App-title">
             <h2>Filtros <span>▴</span></h2>
             <SearchBox searchChange={onSearchChange} />
+            <Scroll>
+              <ErrorBoundry>
+                <CardList hotels={filteredHotels} />
+              </ErrorBoundry>
+            </Scroll>
           </div>
-          <Scroll>
-            <ErrorBoundry>
-              <CardList hotels={filteredHotels} />
-            </ErrorBoundry>
-          </Scroll>
         </div>
       );
   }
