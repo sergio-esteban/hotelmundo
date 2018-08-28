@@ -1,0 +1,70 @@
+.Card {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    /* grid-row-gap: 1.5rem; */
+    align-self: center;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2.5rem;
+
+    text-align: center;
+    background-color: aliceblue;
+    font: 300 12px/1 'Open Sans', sans-serif;
+    display:inline-block;
+    border-radius:.5rem;
+    padding: 4rem;
+    margin: 2rem;
+    border-width:.25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    transition: box-shadow .5s ease, transform .2s ease;
+}
+
+.Card h1 {
+    font-size: 3rem;
+}
+
+.Card:hover,
+.Card:active {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+
+@media (min-width: 500px) {
+    .Cards {
+        width: 400px;
+    }
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    position: relative;
+	display: inline-block;
+	padding: .8em 2em;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+    color: white;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	transition: box-shadow .5s ease, transform .2s ease;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+
+
+.btn:active {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+
+.span {
+    font: 300 12px/1 'Open Sans', sans-serif;
+}

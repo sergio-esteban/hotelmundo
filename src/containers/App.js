@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import logo from "../assets/images/logo-almundo.svg";
 import CardList from "../components/Cards/CardList";
-import SearchBox from "../components/SearchBox";
+import SearchBox from "../components/SearchBox/SearchBox";
 import Scroll from "../components/Scroll";
-import "./App.css";
+import styles from "./App.css";
 import ErrorBoundry from "../components/ErrorBoundry";
 
 import { setSearchField } from "../actions";
@@ -48,12 +48,12 @@ class App extends Component {
     return !hotels.length ?
       <h1>Loading...</h1> :
       (
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+        <div className={styles.App}>
+          <header>
+            <img src={logo} className={styles.logo} alt="logo" />
           </header>
-          <div className="pa4 App-title">
-            <h2>Filtros <span>▴</span></h2>
+          <div className={styles.title}>
+            <h2>Filtros</h2>
             <SearchBox searchChange={onSearchChange} />
             <Scroll>
               <ErrorBoundry>

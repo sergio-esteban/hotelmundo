@@ -1,0 +1,47 @@
+.SearchBox {
+    margin: 3rem auto;
+    max-width: 60%;
+}
+
+.SearchBox input {
+    font-size: 17px;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border: 1px solid #d1d1d1;
+    font: bold 16px Arial,Helvetica,Sans-serif;
+    padding: 10px 15px 10px 35px;
+
+    border-right: none;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+.SearchBox button {
+    float: left;
+    width: 20%;
+    padding: 8px;
+    background: #ff8300;
+    color: white;
+    border: 1px solid #a5a5a5;
+    border-left: none;
+    cursor: pointer;
+}ß
+
+.SearchBox::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.svg {
+    fill: white;
+    width: 20px;
+    height: 20px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card/Card";
+import SearchBox from "../SearchBox/SearchBox";
 
 const CardList = ({ hotels }) => {
   return (
