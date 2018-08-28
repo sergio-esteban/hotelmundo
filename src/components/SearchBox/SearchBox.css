@@ -32,7 +32,7 @@
     border: 1px solid #a5a5a5;
     border-left: none;
     cursor: pointer;
-}ß
+}
 
 .SearchBox::after {
     content: "";
