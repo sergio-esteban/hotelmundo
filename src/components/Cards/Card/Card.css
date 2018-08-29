@@ -68,3 +68,7 @@
 .span {
     font: 300 12px/1 'Open Sans', sans-serif;
 }
+
+.pictures {
+    display: inline-block;
+}

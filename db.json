@@ -5,7 +5,7 @@
       "name": "Hotel Stefanos",
       "stars": 3,
       "price": 994.18,
-      "image": "4900059_30_b.jpg",
+      "image": "./src/assets/images/hotels/4900059_30_b.jpg",
       "amenities": [
         "safety-box",
         "nightclub",
@@ -19,7 +19,7 @@
       "name": "Hotel Santa Cruz",
       "stars": 3,
       "price": 1267.57,
-      "image": "6623490_6_b.jpg",
+      "image": "./src/assets/images/hotels/6623490_6_b.jpg",
       "amenities": [
         "nightclub",
         "business-center",

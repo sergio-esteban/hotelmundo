@@ -52,8 +52,7 @@ class App extends Component {
           <header>
             <img src={logo} className={styles.logo} alt="logo" />
           </header>
-          <div className={styles.title}>
-            <h2>Filtros</h2>
+          <div>
             <SearchBox searchChange={onSearchChange} />
             <Scroll>
               <ErrorBoundry>

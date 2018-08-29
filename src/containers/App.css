@@ -1,7 +1,8 @@
 .App {
   box-sizing: border-box;
   font-size: 62.5%; /* 10px/16px = 62.5% -> 1rem =10px*/
-  display: grid;
+  /* display: grid; */
+  text-align: center;
 }
 
 .logo {
@@ -17,10 +18,4 @@
   height: auto 120px;
   padding: 20px;
   color: white;
-}
-
-.title {
-  font-size: 1.5em;
-  color:blue;
-  text-align: center;
 }
