@@ -26,8 +26,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 > * [x] Clone the repo
 > * [x] npm install
-> * [x] type ```npm start``` on a terminal tab
-> * [x] type ```npm run json:server``` on the other terminal tab
+> * [x] type ```npm run json:server``` in a terminal tab
+> * [x] type ```npm start``` on the other terminal tab
+> * [x] Would you like to run the app on another port instead? (Y/n) y
 > * [x] open ```http://localhost:3001/```
 
 ## View Project
