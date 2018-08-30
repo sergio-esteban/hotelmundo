@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './Card.css';
 
-const Card = ({ name, stars, id, price, image }) => {
+const Card = ({ name, stars, price, image }) => {
   return (
     <div className={styles.Card}>
       {/* <img alt="hotel" src="https://api.imgur.com/3/album/d0S92Vo/images" /> */}
@@ -14,7 +14,7 @@ const Card = ({ name, stars, id, price, image }) => {
         {price}
       </h1>
       <button className={styles.btn}>Ver Hotel</button>
-    </div>
+    </div >
   );
 };
 

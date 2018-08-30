@@ -1,13 +1,17 @@
-.SearchBox {
-    margin: 3rem auto;
-    max-width: 60%;
+.search {
+    /* margin: auto; */
+    padding: 3rem;
+    /* max-width: 60%; */
+    /* background-color: blue; */
+    grid-column: center-start / col-end 3;
+    /* grid-row: 2 / 3; */
 }
 
-.SearchBox input {
+.search input {
     font-size: 17px;
     float: left;
     width: 80%;
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
     border: 1px solid #d1d1d1;
     font: bold 16px Arial,Helvetica,Sans-serif;
     padding: 10px 15px 10px 35px;
@@ -23,18 +27,17 @@
     transition: all 0.7s ease 0s;
 }
 
-.SearchBox button {
+.search button {
     float: left;
     width: 20%;
     padding: 8px;
-    background: #ff8300;
     color: white;
-    border: 1px solid #a5a5a5;
+    border: 1px solid #d1d1d1;
     border-left: none;
     cursor: pointer;
 }
 
-.SearchBox::after {
+.search::after {
     content: "";
     clear: both;
     display: table;

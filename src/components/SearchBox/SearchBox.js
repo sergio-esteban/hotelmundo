@@ -4,7 +4,11 @@ import styles from './SearchBox.css';
 
 const SearchBox = ({ searchfield, searchChange }) => {
   return (
-    <div className={styles.SearchBox}>
+    <div className={styles.search}>
+      <h3>
+        <img src={searchIcon} alt="search-icon" className={styles.svg} />
+        Nombre de hotel
+      </h3>
       <input
         type="search"
         placeholder="Ingresa un hotel"

@@ -25,7 +25,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      hotels: []
+      hotels: [],
+      pictures: []
     };
   }
 
@@ -52,14 +53,14 @@ class App extends Component {
           <header>
             <img src={logo} className={styles.logo} alt="logo" />
           </header>
-          <div>
-            <SearchBox searchChange={onSearchChange} />
+          <div><SearchBox searchChange={onSearchChange} /></div>
+          <section>
             <Scroll>
               <ErrorBoundry>
                 <CardList hotels={filteredHotels} />
               </ErrorBoundry>
             </Scroll>
-          </div>
+          </section>
         </div>
       );
   }

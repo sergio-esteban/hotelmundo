@@ -1,0 +1,8 @@
+.cardlist {
+    /* background-color: chartreuse; */
+    grid-column: col-start 4 / full-end;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
