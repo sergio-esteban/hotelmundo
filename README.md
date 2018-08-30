@@ -1,4 +1,6 @@
-# AlmundoRobot App React-Redux
+# almundo App React-Redux
+
+## Transformar al mundo a través de los viajes.
 
 ![almundo](https://user-images.githubusercontent.com/25851867/44826409-79391280-abd4-11e8-9012-8987f2443918.gif)
 
