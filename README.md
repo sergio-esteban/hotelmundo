@@ -1,6 +1,6 @@
 # AlmundoRobot App React-Redux
 
-![almundo](https://user-images.githubusercontent.com/25851867/44630579-651bb980-a925-11e8-948e-0c200e2e0977.gif)
+![almundo](https://user-images.githubusercontent.com/25851867/44826409-79391280-abd4-11e8-9012-8987f2443918.gif)
 
 * [x] La funcionalidad de listado y filtrado de hoteles debe estar soportada por la API y
 consumida en la aplicación cliente.
