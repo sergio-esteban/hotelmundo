@@ -6,7 +6,7 @@ class CardList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      pictures: []
+      pictures: [],
     }
   }
 
@@ -39,6 +39,7 @@ class CardList extends Component {
               name={hotel.name}
               stars={hotel.stars}
               price={hotel.price}
+              amenities={hotel.amenities}
             />
           );
         })}
