@@ -2,7 +2,8 @@
 
 ## Transformar al mundo a través de los viajes.
 
-![almundo](https://user-images.githubusercontent.com/25851867/44826409-79391280-abd4-11e8-9012-8987f2443918.gif)
+![almundo](https://user-images.githubusercontent.com/25851867/44922229-72142080-ad0a-11e8-987a-01d72cfc94ed.gif)
+
 
 * [x] La funcionalidad de listado y filtrado de hoteles debe estar soportada por la API y
 consumida en la aplicación cliente.
