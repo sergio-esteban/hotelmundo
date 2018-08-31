@@ -5,7 +5,7 @@ const Card = ({ name, stars, price, image, amenities }) => {
   return (
     <div className={styles.Card}>
       {/* <img alt="hotel" src="https://api.imgur.com/3/album/d0S92Vo/images" /> */}
-      <div>{image}</div>
+      <div className={styles.picture}>{image}</div>
       <div className={styles.info}>
         <h2>{name}</h2>
         <p>{stars}</p>

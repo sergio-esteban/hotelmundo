@@ -5,13 +5,13 @@
   grid-template-rows: 12vh min-content; /* 20vw */
   /* grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(4, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; 1fr minmax(min-content, 14rem) 1fr */
   grid-template-columns: [full-start] 1fr 2fr [full-end];
-  /* text-align: center; */
+  justify-content: center;
+  align-content: center;
+  grid-row-gap: 1rem;
+  /* justify-items: center; */
 }
 
 @media (max-width: 50em) {
-  .App {
-    justify-content: center;
-  }
   .search {
     grid-column: full-start / full-end;
   }
