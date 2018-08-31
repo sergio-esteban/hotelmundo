@@ -8,6 +8,19 @@
   /* text-align: center; */
 }
 
+@media (max-width: 50em) {
+  .App {
+    justify-content: center;
+  }
+  .search {
+    grid-column: full-start / full-end;
+  }
+  .App section {
+    grid-column: full-start / full-end;
+  }
+}
+
+
 .logo {
   height: 4rem;
 }

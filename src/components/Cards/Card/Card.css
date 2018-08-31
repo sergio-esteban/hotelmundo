@@ -1,13 +1,14 @@
 .Card {
     display: grid;
     /* grid-template-columns: repeat(6, 1fr); */
-    grid-template-columns: repeat(3, minmax(min-content 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
     grid-template-rows: min-content;
+    /* justify-content: center; */
 
     text-align: center;
     /* background-color: aliceblue; */
     font: 300 12px/1 'Open Sans', sans-serif;
-    /* display: block; */
+    /* display: inline-block; */
     border-radius:.5rem;
     padding: 4rem;
     margin: 2rem;
@@ -46,6 +47,8 @@
 
 .Card:first-child {
     margin: 0px;
+    width: 100%;
+    /* box-shadow: 0 2rem 5rem rgba(#000, .1); */
 }
 
 .callAction {
@@ -57,6 +60,7 @@
     grid-column: 2 / span 1;
     /* grid-row: 1 / span 1; */
     text-align: left;
+    margin-left: 2rem;
 }
 
 .info ul {
@@ -90,8 +94,19 @@
     transform: translateY(-1rem);
 } */
 
-/* @media (min-width: 500px) {
-    .Card {
-        width: 450px;
-    }
-} */
+@media (max-width: 50em) {
+  .Card {
+    justify-self: center;
+    align-self: auto;
+    align-items: center;
+  }
+  .info {
+    grid-column: 1 / span 1;
+    text-align: center;
+    margin: 0px;
+  }
+  .callAction {
+    grid-column: 1 / -1;
+    grid-row: 3 / span 1;
+  }
+}

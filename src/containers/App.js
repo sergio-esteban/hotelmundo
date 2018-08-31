@@ -53,7 +53,9 @@ class App extends Component {
           <header>
             <img src={logo} className={styles.logo} alt="logo" />
           </header>
-          <div><SearchBox searchChange={onSearchChange} /></div>
+          <div className={styles.search}>
+            <SearchBox searchChange={onSearchChange} />
+          </div>
           <section>
             <Scroll>
               <ErrorBoundry>

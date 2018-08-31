@@ -3,7 +3,7 @@
     padding: 3rem;
     /* max-width: 60%; */
     /* background-color: blue; */
-    grid-column: center-start / col-end 3;
+    /* grid-column: center-start / col-end 3; */
     /* grid-row: 2 / 3; */
 }
 
@@ -47,4 +47,12 @@
     fill: white;
     width: 20px;
     height: 20px;
+}
+
+@media (min-width: 62.5em) {
+    .search {
+        /* grid-template-columns: min-content; */
+        /* grid-template-rows: repeat(7, 1fr); */
+        /* grid-column: ; */
+    }
 }
