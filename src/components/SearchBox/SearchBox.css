@@ -42,6 +42,10 @@
     clear: both;
     display: table;
 }
+.search h3 {
+    color: #0679B3;
+    font-size: 1.5rem;
+}
 
 .svg {
     fill: white;

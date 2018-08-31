@@ -11,7 +11,7 @@
   /* justify-items: center; */
 }
 
-@media (max-width: 50em) {
+@media (max-width: 62.5em) {
   .search {
     grid-column: full-start / full-end;
   }
@@ -20,21 +20,20 @@
   }
 }
 
-
-.logo {
-  height: 4rem;
-}
-
 .App header {
+  /* align-self: start; */
   grid-column: full-start / full-end;
-  /* grid-row: 1 / -1; */
+  grid-row: 1 / -1;
   background: linear-gradient(
     to left,
     rgba(7, 27, 82, 1) 0%,
     rgba(0, 128, 128, 1) 100%
   );
-  height: auto 120px;
-  padding: 20px;
-  color: white;
+  /* height: 14vh; */
+  padding: 2rem;
 }
 
+.logo {
+  height: 5rem;
+  justify-self: center;
+}

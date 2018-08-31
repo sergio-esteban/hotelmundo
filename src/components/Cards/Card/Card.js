@@ -14,7 +14,7 @@ const Card = ({ name, stars, price, image, amenities }) => {
         </ul>
       </div>
       <div className={styles.callAction}>
-        <p>Precio por noche por habitación</p>
+        <p>Precio por noche por<br></br> habitación</p>
         <h1>
           <span className={styles.span}>ARS </span>
           {price}
