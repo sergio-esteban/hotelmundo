@@ -9,10 +9,12 @@ const SearchBox = ({ searchfield, searchChange }) => {
       <h3>
         Nombre de hotel
       </h3>
-      <input
-        type="search"
-        placeholder="Ingresa un hotel"
-        onChange={searchChange} />
+      <form>
+        <input
+          type="search"
+          placeholder="Ingresa un hotel"
+          onChange={searchChange} />
+      </form>
       <button type="submit">
         <img src={searchIcon} alt="search-icon" className={styles.svg} />
       </button>

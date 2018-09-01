@@ -34,7 +34,7 @@ Card.propTypes = {
   name: PropTypes.string,
   stars: PropTypes.number,
   price: PropTypes.number,
-  image: PropTypes.string,
+  image: PropTypes.object,
   amenities: PropTypes.array
 };
 

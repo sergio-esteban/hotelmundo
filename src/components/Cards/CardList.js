@@ -11,7 +11,7 @@ class CardList extends Component {
   }
 
   componentDidMount() {
-    fetch("https://randomuser.me/api/?results=100")
+    fetch("https://randomuser.me/api/?results=200")
       .then(results => {
         return results.json();
       }).then(data => {
