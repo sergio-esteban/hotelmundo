@@ -76,12 +76,19 @@
     margin-left: 2rem;
     align-self: start;
     justify-self: start;
+    line-height: 1.2;
 }
 
 .info ul {
     list-style: none;
     padding: 0px;
 }
+
+/* .info ul li.icons {
+    background: url("../../../assets/icons/amenities/business-center.svg") no-repeat center;
+    background-image: url("../../../assets/icons/amenities/business-center.svg");
+    background-size: contain;
+} */
 
 .info h2 {
     color: #0679B3;
@@ -140,6 +147,10 @@
     margin-left: 2rem;
   }
 
+  .info ul {
+    text-align: left;
+  }
+
   .callAction {
     grid-column: 2 / span 1;
     grid-row: 3 / span 1;
@@ -147,7 +158,7 @@
     justify-self: center;
   }
 
-  .callAction button {
-    /* padding: auto 6rem; */
-  }
+  /* .callAction button {
+    /* padding: auto 6rem;
+  } */
 }

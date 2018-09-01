@@ -6,7 +6,7 @@ class CardList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      pictures: [],
+      pictures: []
     }
   }
 
@@ -35,7 +35,7 @@ class CardList extends Component {
             <Card
               key={hotel.id}
               image={this.state.pictures[i]}
-              id={hotel.id}
+              // id={hotel.id}
               name={hotel.name}
               stars={hotel.stars}
               price={hotel.price}

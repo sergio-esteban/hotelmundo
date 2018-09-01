@@ -10,7 +10,10 @@ const Card = ({ name, stars, price, image, amenities }) => {
         <h2>{name}</h2>
         <p>{stars}</p>
         <ul>
-          <li>{amenities}</li>
+          {amenities.map((icon, i) => (
+            <li key={i}>{icon}</li>
+            // return <img key={i} height="87px" width="100px" alt="amenities" src={`../../../assets/icons/amenities/${icon}.svg`} />
+          ))}
         </ul>
       </div>
       <div className={styles.callAction}>
