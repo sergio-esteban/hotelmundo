@@ -9,7 +9,6 @@ import App from "./containers/App";
 import registerServiceWorker from "./registerServiceWorker";
 import { searchHotels, requestHotels } from "./reducers";
 import "tachyons";
-import "react-star-ratings";
 
 const logger = createLogger();
 

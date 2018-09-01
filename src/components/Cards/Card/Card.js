@@ -1,5 +1,7 @@
 import React from "react";
 import styles from './Card.css';
+import PropTypes from 'prop-types';
+
 
 const Card = ({ name, stars, price, image, amenities }) => {
   return (
@@ -26,6 +28,14 @@ const Card = ({ name, stars, price, image, amenities }) => {
       </div>
     </div >
   );
+};
+
+Card.propTypes = {
+  name: PropTypes.string,
+  stars: PropTypes.number,
+  price: PropTypes.number,
+  image: PropTypes.string,
+  amenities: PropTypes.array
 };
 
 export default Card;
